@@ -1,0 +1,12 @@
+Operating Systems Lab 2 Scheduling:
+
+About-This lab simulates scheduling, so that we may see how different scheduling algorithms work and the differences in time.  A process is characterized by 4 components in this order.  Arrival time of the process(A), max length of which the CPU burst time can be(B), total CPU time needed for the process to complete(C), and (M) the multplier that finds the I/O burst time by multiplying the preceding CPU burst time and M.
+
+To compile all the files in command line do javac HPRNComparator.java Process.java TieBreakRule.java Scheduler.java
+To run this program do java Scheduler "filename" without the quotes.
+
+The program does not need the file extension .txt at the end only the file name.  Use .txt files in the same directory as Scheduler.java and the rest of the .java files to avoid any problems.  The code is meant to read the input exactly as the way professor Gottlieb has the sample inputs, so the parentheses are needed around the 4 numbers.
+
+The code also accepts an optional --verbose argument between Scheduler.java and "filename" in order to produce a more detailed output.  So to include the verbose flag type in commmand line after compiling: java Scheduler --verbose "filename" without the quotes.
+
+I have also included the sample inputs given from the course website and the large list of random numbers on the website as a .txt file called random-numbers.  The random-numbers file is the same as the graders, but if you do not include mine please have the random numbers file be called "random-numbers", without the quotes, to avoid any errors.
