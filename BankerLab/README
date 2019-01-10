@@ -1,0 +1,8 @@
+Operating Systems Lab 3 Banker Lab:
+
+To compile all the files on the command line, type javac Banker.java Task.java Resource.java TaskSortId.java.
+After the above line, to run the program type java Banker "filename" without the quotes and without the .txt file extension.
+Use .txt files in the same directory to avoid any problems with input.
+This program only accepts one command line argument.
+
+About- This program is to model resource allocation with an optimistic resource manager using FIFO and Dijkstra's banker's algorithm.  If a task needs to be aborted, a line is printed out stating which task is aborted and why.  Both the results of the optimistic resource manager and the banker's algorithm are printed once the program is finished.

@@ -1,0 +1,9 @@
+Operating Systems Lab 4 Paging:
+
+To compile the files in command line: javac Paging.java Page.java Process.java
+
+This program needs 6 command line arguments in this order: an integer representing  machine size in words, an integer representing page size in words, an integer representing the size of each process, an integer representing the job mix, an integer representing the number of references for each process, and a String representing the replacement algorithm that needs to be in lowercase.
+
+An example of executing this program is as follows: java Paging 10 10 20 1 10 lru.
+
+The purpose of this program is to simulate demand paging and to see/handle page faults based on page size, program size, the replacement algorithm, and job mix.  My program uses a queue and a stack for the lru and lifo replacement algorithms resepectively.  I have also included the random-numbers.txt file along with my the .java files.
