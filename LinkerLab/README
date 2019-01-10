@@ -1,0 +1,7 @@
+LAB 1 LINKER READ ME:
+
+About-This program is a two-pass linker.  The input is made up of a series of object modules, with each module cosisting of a definition list, use list, and program text.
+
+Instructions to compile-There is only one java file so javac Linker.java and then java Linker to compile the code.
+
+Instructions to run program- When going to a new line do not use a newline character but rather just press enter to submit in that line as it is.  My code utilizes a loop that will not end until the user inputs "end".  So after the last line of input (e.g. 4 50001 50002 61234 50004), press enter, and then type "end" and press enter again.  The loop will break and the program will work on the input
